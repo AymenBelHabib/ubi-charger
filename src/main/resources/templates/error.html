@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>error</title>
+</head>
+<body>
+<h1>wrong url</h1>
+<h4>Available services:</h4>
+<dl>
+    <dt>Plug a car</dt>
+    <dd>- HTTP method POST</dd>
+    <dd>- URL : /ubi/cp/{charging point number}</dd>
+    <dd>- Rule 1: charging point number is a number between 1 and 10.</dd>
+    <dd>- Rule 2: you can not plug a car in an occupied CP.</dd>
+
+    <dt>Unplug a car</dt>
+    <dd>- HTTP method DELETE</dd>
+    <dd>- URL : /ubi/cp/{charging point number}</dd>
+    <dd>- Rule 1: charging point number is a number between 1 and 10.</dd>
+    <dd>- Rule 2: you can not unplug a car from an available CP.</dd>
+
+    <dt>Get repport</dt>
+    <dd>- HTTP method GET</dd>
+    <dd>- URL : /ubi/station</dd>
+</dl>
+</body>
+</html>
