@@ -6,6 +6,7 @@ Rest Api using spring boot, used port :8081
 
 - java version 17  
 - gradle version 5.6.2
+- thymeleaf version 2.7.0
 
 ## available services
 - Ubitricity charging point :  
